@@ -13,7 +13,7 @@ import Createloginpage from './pages/CreateLoginPage'
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Router>
         <Switch>
 

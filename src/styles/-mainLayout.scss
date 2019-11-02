@@ -2,9 +2,21 @@
     background-color: #fff;
     border-right: 1px solid gray;
     height: 100vh;
+    overflow: auto;
 }
 
 .mainbg {
-    background-color: #f9f9f9;
+    background-color: green;
     height: 100vh;
+    overflow: auto;
+    display: block;
+}
+
+.conatiner-fluid {
+    width: 100%;
+    padding-right: -100%; 
+    padding-left: 15px;
+    // margin-right: auto;
+    // margin-left: auto;
+    box-sizing: border-box;    
 }
