@@ -6,7 +6,7 @@ export default class CreateLoginPage extends Component {
     render() {
         return (
             <div>
-               <Button> <Link style={{color:'white'}} to="/dashboardpage">go Dashboard</Link> </Button>
+               <Button> <Link style={{color:'white'}} to="/">go Dashboard</Link> </Button>
             </div>
         )
     }
