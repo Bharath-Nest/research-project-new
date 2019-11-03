@@ -7,6 +7,7 @@ import DashboardIcon from '../../assets/icons/dashboard.svg';
 import UserIcon from '../../assets/icons/profile.svg';
 import ProfileIcon from '../../assets/icons/team.svg';
 import ProfilePic from '../ProfilePic';
+import AdvanceIcon from '../../assets/icons/advance.svg';
 import {Active, InActive} from '../Status';
 
 const Items = [
@@ -61,7 +62,7 @@ const Items = [
     {
         id: 9,
         name: 'Advance',
-        icon: UserIcon,
+        icon: AdvanceIcon,
         path: '/profilepage',
     }
 ];
