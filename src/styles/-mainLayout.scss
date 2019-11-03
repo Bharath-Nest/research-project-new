@@ -1,15 +1,16 @@
 .sidebg {
     background-color: #fff;
-    border-right: 1px solid gray;
+    border-right: 1px solid #AAB8BE ;
     height: 100vh;
     overflow: auto;
 }
 
 .mainbg {
-    background-color: green;
+    background-color: #F2F3F5 ;
     height: 100vh;
     overflow: auto;
     display: block;
+    margin-right: 16px;
 }
 
 .conatiner-fluid {
@@ -19,4 +20,18 @@
     // margin-right: auto;
     // margin-left: auto;
     box-sizing: border-box;    
+}
+
+.listicons {
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+}
+
+.side-user-status {
+    // display: flex;
+    // justify-content: center;
+    text-align: center;
+    // width:'100%';
+    direction: column;
 }

@@ -4,3 +4,16 @@
     border-radius: 100%;
     border: 2px solid #fff;
 }
+
+.profile-pic-side-list {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+.side-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}

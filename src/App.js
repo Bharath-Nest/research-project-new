@@ -10,6 +10,7 @@ import CreateStudyPage from './pages/CreateStudyPage';
 import LayoutRoute from './components/Layout/LayoutRoute';
 import EmptyLayout from './components/Layout/EmptyLayout';
 import Createloginpage from './pages/CreateLoginPage'
+import ParticipantUsersList from './components/ParticipantUsersList';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/profilepage" component={ProfilePage} />
             <Route path="/createstudy" component={CreateStudyPage} />
             <Route path="/sitepage" component={SitePage} />
+            <Route exact path="/participantuser" component={ParticipantUsersList} />
           </MainLayout>
         </Switch>
       </Router>
